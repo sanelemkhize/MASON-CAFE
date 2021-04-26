@@ -29,6 +29,7 @@ body {
     color: rebeccapurple;
     text-decoration: none;
     padding: 22px;
+    font-weight: bolder;
 }
 
 .nav-list li a:hover {
