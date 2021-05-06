@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE >
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,7 +22,7 @@
 
     <div class="image-holder">
         <img id="background-img" src="images/coffee-cafe.jpg" width="100%">
-        <h1 id="caption-1">SHOP ONLINE AT MASÖN's CAFE</h1>
+        <h1 id="caption-1">ONLINE SHOPPING AT MASÖN's CAFE</h1>
 
     </div>
 
@@ -34,7 +34,7 @@
 
         <div class="product-container">
             <p class="menu-text">MASE MENU</p>
-            <img src="images/mason-menu-cafe.jpg">
+            <img src="images/istockphoto-471199096-612x612.jpg">
 
             <div class="btn-container">
                 <button class="view-more-btn" type="button" name="sumbit">VIEW MORE</button>
@@ -44,7 +44,7 @@
 
         <div class="product-container">
             <p class="menu-text">BREAKFAST SPECIAL</p>
-            <img src="images/coffee-muffins.jpg">
+            <img src="images/breakfast.jpg">
 
             <div class="btn-container">
                 <button class="view-more-btn" type="button" name="sumbit">VIEW MORE</button>
@@ -54,7 +54,7 @@
 
         <div class="product-container">
             <p class="menu-text">COFFEE DATE</p>
-            <img src="images/coffee-date.jpg">
+            <img src="images/dates.jpg">
             
             <div class="btn-container">
                 <button class="view-more-btn" type="button" name="sumbit">VIEW MORE</button>
@@ -65,19 +65,19 @@
     </div>
 
             <!-- SOCIAL MEDIA LINKS SECTION -->
-    <div id="social-media-links" backgound-color: #00000;>
+    <div id="social-media-links">
         
         <div id="facebook-app-logo">
-            <img src="images/social-links/icons8-facebook-f-50.png">
+            <img src="images/social-links/iconfinder_Facebook_3721668.png">
         </div>
 
 
         <div id="twitter-app-logo">
-            <img src="images/social-links/icons8-twitter-50.png">
+            <img src="images/social-links/iconfinder_square-twitter_317723.png">
         </div>
 
         <div id="instagram-app-logo">
-            <img src="images/social-links/icons8-instagram-50.png">
+            <img src="images/social-links/iconfinder_2018_social_media_popular_app_logo_instagram_2895177.png">
         </div>
 
     </div>
@@ -86,31 +86,32 @@
 
             <!-- FORM AND COMMENT SECTION -->
     <div class="form-container">
-        <div id="email-icon">
-            <img src="images/social-links/email.png">
+
+        <div id="form-head-container">
+            <img id="email-icon" src="images/social-links/email.png">
             <p id="contact-us">Contact Us</p>
         </div>
 
+    
+
+        <form action="action page.php">
+            <label class="form-item" for="fname" >First Name</label>
+            <input type="text" name="first-name" id="fname" placeholder="Your name">
+            <br><br>
+
+            <label class="form-item" for="lname" >Last Name</label>
+            <input type="text" name="last-name" id="lname" placeholder="Your last name">
+            <br><br>
+
+            <label class="form-item" for="subject" >Subject</label>
+            <textarea name="subject" id="subject" placeholder="How may we assist"></textarea>
+            <br><br>
+
+            <input type="submit" id="submit-btn" value="submit">
+
+
+        </form>
     </div>
-
-    <form action="" class="form-head-container">
-        <label class="form-item" for="fname" >First Name</label>
-        <input type="text" name="first-name" id="fname" placeholder="Your name">
-        <br><br>
-
-        <label class="form-item" for="lname" >Last Name</label>
-        <input type="text" name="last-name" id="lname" placeholder="Your last name">
-        <br><br>
-
-        <label class="form-item" for="subject" >Subject</label>
-        <textarea name="subject" id="subject" placeholder="How may we assist"></textarea>
-        <br><br>
-
-        <input type="submit" id="submit-btn" value="submit">
-
-
-    </form>
-
 
 </body>
 </html>

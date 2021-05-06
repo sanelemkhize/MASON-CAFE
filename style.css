@@ -54,9 +54,9 @@ body {
 
 #caption-1 {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 25%;
-    color: white;
+    color: whitesmoke;
     font-size: 3vw;
     animation-name: caption-fade;
     animation-duration: 2s;
@@ -70,7 +70,7 @@ body {
 
     100% {
         opacity: 1;
-        top: 40%;
+        top: 30%;
     }
 
 }
@@ -79,6 +79,8 @@ body {
     text-align: center;
     color: white;
 }
+
+/* STYING PRODUCT SESSION */
 
 .featured-wrapper {
     position: relative;
@@ -118,19 +120,18 @@ body {
 .product-container img {
     max-width: 100%;
     position: relative;
-    /* top: 0; */
+    top: 0;
 }
 
 .menu-text {
     font-size: 1.3vw;
     font-weight: bold;
-    color:rgb(247, 154, 89);
+    color:white;
     margin-top: 10%;
     margin-bottom: -1%;
 }
 
 .btn-container {
-    /* background: white; */
     position: relative;
     top: 1;
     padding: 7px;
@@ -156,12 +157,14 @@ body {
     background-color: chocolate;
 }
 
+/* SYTLING SOCIAL ICONS */
+
 #social-media-links {
-    background-color: white;
+    /* background-color: white; */
     display: inline-block;
     position: fixed;
     right: 0;
-    bottom: 50%;
+    bottom: 30%;
     cursor: pointer;
 }
 
@@ -184,7 +187,7 @@ body {
 }
 
 #instagram-app-logo {
-    background-color: #eb4e6d;
+    /* background-color: #eb4e6d; */
     transition: .5s;
 }
 
@@ -193,9 +196,11 @@ body {
 
 }
 
+/* STYLING FORM CONTAINER */
+
 .form-container {
     background-color: #323232;
-    width: 230px;
+    width: 330px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     position: fixed;
@@ -207,24 +212,24 @@ body {
 .form-container:hover {
     bottom: 0;
 }
-
+ 
 #email-icon {
-    width: 48px;
+    width: 40px;
     float: left;
 }
 
-.form-head-container {
-    background-color: darkgray;
+#form-head-container {
+    background-color: black;
     padding: 5px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .form-item {
     margin-left: 15px;
-    padding-left: 8px;
     color: white;
+    padding-left: 8px;
 }
 
 #subject {
@@ -237,20 +242,32 @@ body {
 }
 
 #submit-btn {
-    background-color: silver;
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 7px 12px;
     margin: 9px 18px;
-    text-decoration: none;
     text-align: center;
+    text-decoration: none;
     display: inline-block;
-    border-radius: 5px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
-#submit-btn:hover {
+#submit-btn:hover{
     background-color: blue;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
